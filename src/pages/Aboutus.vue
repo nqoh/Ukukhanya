@@ -117,7 +117,7 @@
     </div>
   </template>  
 <script setup lang="ts">
-  import ourstory from '../components/App/Aboutus/ourstory.vue';
+  import ourstory from '../components/App/Aboutus/Ourstory.vue';
   import MissionVission from '../components/App/Aboutus/Mission&Vission.vue';
   import Hero from '../components/App/Hero.vue';
 </script>
