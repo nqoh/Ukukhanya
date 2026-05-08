@@ -13,7 +13,7 @@
       Why Choose Us
     </span>
 
-    <h2 class="text-5xl font-black text-blue-950 mt-4">
+    <h2 class="text-2xl lg:text-5xl font-black text-blue-950 mt-4">
       Quality Work. Clean Water. Better Life.
     </h2>
   </div>

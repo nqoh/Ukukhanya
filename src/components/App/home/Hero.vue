@@ -4,9 +4,9 @@
     <div class="max-w-7xl mx-auto grid lg:grid-cols-2 items-center min-h-[300px]">
 
       <!-- Left -->
-      <div class="px-6 lg:px-10 py-16" >
+      <div class="px-6 lg:px-10 py-12" >
 
-        <h1 class="lg:text-3xl text-4xl leading-tight font-black text-blue-950 uppercase">
+        <h1 class="lg:text-3xl text-2xl  leading-tight font-black text-blue-950 uppercase">
           Complete Water Solutions For A
           <span class="text-blue-600 block"  >
             Better Tomorrow
@@ -19,10 +19,10 @@
           solutions for your home, farm and business.
         </p>
 
-        <div class="grid grid-cols-3 gap-4 mt-10 max-w-xl">
+        <div class="grid grid-cols-3 gap-4 mt-10 max-w-xl ">
 
           <div class="flex items-start gap-3">
-            <div class="text-blue-700 text-4xl">💧</div>
+            <div class="text-blue-700 text-2xl lg:text-4xl">💧</div>
             <div>
               <h3 class="font-black text-slate-800">Experienced</h3>
               <p class="text-slate-500 text-sm">Team</p>
@@ -30,7 +30,7 @@
           </div>
 
           <div class="flex items-start gap-3">
-            <div class="text-blue-700 text-4xl">🛡️</div>
+            <div class="text-blue-700 text-2xl lg:text-4xl">🛡️</div>
             <div>
               <h3 class="font-black text-slate-800">Quality</h3>
               <p class="text-slate-500 text-sm">Assured</p>
@@ -38,7 +38,7 @@
           </div>
 
           <div class="flex items-start gap-3">
-            <div class="text-blue-700 text-4xl">🎧</div>
+            <div class="text-blue-700 text-2xl lg:text-4xl">🎧</div>
             <div>
               <h3 class="font-black text-slate-800">Fast & Reliable</h3>
               <p class="text-slate-500 text-sm">Service</p>
