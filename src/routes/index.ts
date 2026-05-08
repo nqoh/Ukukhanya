@@ -6,7 +6,7 @@ const routes = [
         name:'Home',
         component:()=>import('../pages/Welcome.vue'),
         meta:{
-          title:"UkuKhanya | Home"
+          title:"Ukukhanya Equip Solutions | Home"
         } as { title: string },
        
     },
