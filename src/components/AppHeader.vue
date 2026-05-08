@@ -13,7 +13,7 @@
       </div>
 
       <nav class="hidden md:flex items-center gap-10 font-bold text-slate-700 text-sm uppercase">
-        <router-link :to="{ name:'Home' }" class="nav-link">Home</router-link>
+        <router-link :to="{ name:'Home' }" class="nav-link" >Home</router-link>
         <router-link :to="{ name:'AboutUs' }" class="nav-link">About Us</router-link>
         <router-link :to="{ name:'Services' }" class="nav-link">Services</router-link>
         <router-link :to="{ name:'Gallery' }" class="nav-link">Gallery</router-link>
@@ -47,10 +47,10 @@
         class="md:hidden mt-6 bg-white rounded-3xl shadow-2xl p-6 border border-slate-100"
       >
         <nav class="flex flex-col gap-5 font-bold text-slate-700 uppercase">
-        <router-link :to="{ name:'Home' }" class="nav-link">Home</router-link>
-        <router-link :to="{ name:'AboutUs' }" class="nav-link">About Us</router-link>
-        <router-link :to="{ name:'Services' }" class="nav-link">Services</router-link>
-        <router-link :to="{ name:'Gallery' }" class="nav-link">Gallery</router-link>
+        <router-link :to="{ name:'Home' }" class="nav-link"  @click="mobileMenu = !mobileMenu">Home</router-link>
+        <router-link :to="{ name:'AboutUs' }" class="nav-link"  @click="mobileMenu = !mobileMenu">About Us</router-link>
+        <router-link :to="{ name:'Services' }" class="nav-link"  @click="mobileMenu = !mobileMenu">Services</router-link>
+        <router-link :to="{ name:'Gallery' }" class="nav-link"  @click="mobileMenu = !mobileMenu">Gallery</router-link>
         </nav>
 
       </div>
