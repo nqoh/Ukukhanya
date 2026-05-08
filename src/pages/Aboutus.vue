@@ -98,12 +98,13 @@
         </div>
   
       </section>
-  
+       
     </div>
   </template>  
 <script setup lang="ts">
   import ourstory from '../components/App/Aboutus/ourstory.vue';
   import MissionVission from '../components/App/Aboutus/Mission&Vission.vue';
+
 </script>
 
 <style scoped>
