@@ -1,4 +1,6 @@
 <template>
+  <!-- CTA -->
+  <Cta /> 
      <footer class="bg-blue-950 text-white py-20">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 lg:grid-cols-4 gap-16">
 
@@ -56,7 +58,7 @@
 </template>
 
 <script setup lang="ts">
-
+  import Cta from './App/Cta.vue';
 </script>
 
 <style scoped>

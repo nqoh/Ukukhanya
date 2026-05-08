@@ -24,9 +24,18 @@ const routes = [
     name:'Gallery',
     component:()=>import('../pages/Gallery.vue'),
     meta:{
-      title:"Ukukhanya Equip Solutions | GAllery"
+      title:"Ukukhanya Equip Solutions | Gallery"
     } as { title: string },
    
+},
+{
+  path:'/services',
+  name:'Services',
+  component:()=>import('../pages/Services.vue'),
+  meta:{
+    title:"Ukukhanya Equip Solutions | Services"
+  } as { title: string },
+ 
 },
 ]
 

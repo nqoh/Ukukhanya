@@ -13,8 +13,12 @@
         </p>
       </div>
 
-      <button class="bg-white text-blue-700 px-2 py-5 rounded-2xl font-black text-xl shadow-2xl hover:scale-105 transition">
+      <!-- <button class="bg-white text-blue-700 px-2 py-5 rounded-2xl font-black text-xl shadow-2xl hover:scale-105 transition">
         📞 CALL NOW: +265 999 123 456
+      </button> -->
+
+      <button class="border-2 border-white text-white hover:bg-white hover:text-blue-700 transition px-4 py-5 rounded-2xl font-black text-lg">
+           📞 CALL NOW +27 83 727 4638
       </button>
     </div>
   </section>

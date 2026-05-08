@@ -6,7 +6,7 @@
             <span
             class="bg-blue-700/40  text-white px-5 py-2 rounded-full font-semibold uppercase tracking-widest text-sm"
           >
-            About Ukukhanya Equip Solutions
+            About Ukukhanya
           </span>
         </div>
        
@@ -18,7 +18,7 @@
     <div>
 
       <img
-        src="/assets/images/borehole.png"
+        src="/assets/images/borehole1.png"
         alt="Our Story"
         class="rounded-[2rem] shadow-2xl"
       />
