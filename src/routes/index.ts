@@ -10,6 +10,15 @@ const routes = [
         } as { title: string },
        
     },
+    {
+      path:'/aboutus',
+      name:'AboutUs',
+      component:()=>import('../pages/Aboutus.vue'),
+      meta:{
+        title:"Ukukhanya Equip Solutions | AboutUs"
+      } as { title: string },
+     
+  },
 ]
 
 const  router =  createRouter({
