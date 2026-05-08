@@ -24,10 +24,10 @@
       <div>
         <h4 class="text-2xl font-black">Quick Links</h4>
         <ul class="space-y-4 mt-8 text-slate-300 text-lg">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Services</li>
-          <li>Gallery</li>
+          <li><router-link :to="{ name:'Home' }" class="nav-link">Home</router-link></li>
+          <li><router-link :to="{ name:'AboutUs' }" class="nav-link">About Us</router-link></li>
+          <li><router-link :to="{ name:'Services' }" class="nav-link">Services</router-link></li>
+          <li><router-link :to="{ name:'Gallery' }" class="nav-link">Gallery</router-link></li>
         </ul>
       </div>
 

@@ -1,5 +1,20 @@
 <template>
-    <div class="bg-white text-slate-800">
+    <div class="bg-blue-50 text-slate-800">
+
+      <Hero>
+       <template #title>
+         ABOUT UKUKHANYA 
+       </template>
+
+       <template #sub-title>
+        Who We Are
+       </template>
+
+       <template #description>
+        We are a professional borehole drilling and water solutions company committed to 
+        providing reliable access to clean underground water.
+       </template>
+      </Hero>
       <!-- OurStory -->
       <ourstory />
       <!-- MISSION & VISION -->
@@ -104,7 +119,7 @@
 <script setup lang="ts">
   import ourstory from '../components/App/Aboutus/ourstory.vue';
   import MissionVission from '../components/App/Aboutus/Mission&Vission.vue';
-
+  import Hero from '../components/App/Hero.vue';
 </script>
 
 <style scoped>

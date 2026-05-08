@@ -41,7 +41,13 @@ const routes = [
 
 const  router =  createRouter({
       routes,
-      history: createWebHistory()
+      history: createWebHistory(),
+      scrollBehavior() {
+       return {
+          top: 0,
+          behavior: 'smooth',
+        }
+    },
 })
 
 router.afterEach((to)=>{

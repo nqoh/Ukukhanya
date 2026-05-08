@@ -3,18 +3,20 @@
     <div class="header-child">
 
       <div class="flex items-center ">
+        
         <img
           src="/assets/images/logo.png"
           alt="Ukukhanya Equip Solutions Logo"
           class="w-[100px] lg:w-[100px] h-auto object-contain"
         />
+       
       </div>
 
       <nav class="hidden md:flex items-center gap-10 font-bold text-slate-700 text-sm uppercase">
-        <a href="#" class="nav-link nav-link-active">Home</a>
-        <a href="#" class="nav-link">About Us</a>
-        <a href="#" class="nav-link">Services</a>
-        <a href="#" class="nav-link">Gallery</a>
+        <router-link :to="{ name:'Home' }" class="nav-link">Home</router-link>
+        <router-link :to="{ name:'AboutUs' }" class="nav-link">About Us</router-link>
+        <router-link :to="{ name:'Services' }" class="nav-link">Services</router-link>
+        <router-link :to="{ name:'Gallery' }" class="nav-link">Gallery</router-link>
       </nav>
 
       <div class="flex items-center gap-6">
@@ -45,10 +47,10 @@
         class="md:hidden mt-6 bg-white rounded-3xl shadow-2xl p-6 border border-slate-100"
       >
         <nav class="flex flex-col gap-5 font-bold text-slate-700 uppercase">
-        <a href="#" class="nav-link nav-link-active">Home</a>
-        <a href="#" class="nav-link">About Us</a>
-        <a href="#" class="nav-link">Services</a>
-        <a href="#" class="nav-link">Gallery</a>
+        <router-link :to="{ name:'Home' }" class="nav-link">Home</router-link>
+        <router-link :to="{ name:'AboutUs' }" class="nav-link">About Us</router-link>
+        <router-link :to="{ name:'Services' }" class="nav-link">Services</router-link>
+        <router-link :to="{ name:'Gallery' }" class="nav-link">Gallery</router-link>
         </nav>
 
       </div>

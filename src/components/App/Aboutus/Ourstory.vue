@@ -1,16 +1,6 @@
 <template>
     <!-- COMPANY STORY -->
     <section class="py-2 bg-white">
-  
-        <div class="max-w-7xl mx-auto px-6 text-center py-4">
-            <span
-            class="bg-blue-700/40  text-white px-5 py-2 rounded-full font-semibold uppercase tracking-widest text-sm"
-          >
-            About Ukukhanya
-          </span>
-        </div>
-       
-
   <div
     class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20 items-center"
   >
