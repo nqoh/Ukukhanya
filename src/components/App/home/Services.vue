@@ -8,7 +8,7 @@
           Our Services
         </span>
 
-        <h2 class="text-5xl font-black text-blue-950 mt-4">
+        <h2 class="text-2xl lg:text-5xl font-black text-blue-950 mt-4">
           Complete Water Solutions Under One Roof
         </h2>
 
