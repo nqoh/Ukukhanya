@@ -12,6 +12,6 @@
   @apply hover:text-blue-700 transition;
 }
 
-.nav-link-active {
+.router-link-active {
   @apply px-3 py-2 rounded duration-200 text-blue-600 font-bold border-b-2 border-blue-600;
 }
