@@ -19,6 +19,15 @@ const routes = [
       } as { title: string },
      
   },
+  {
+    path:'/gallery',
+    name:'Gallery',
+    component:()=>import('../pages/Gallery.vue'),
+    meta:{
+      title:"Ukukhanya Equip Solutions | GAllery"
+    } as { title: string },
+   
+},
 ]
 
 const  router =  createRouter({
