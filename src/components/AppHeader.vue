@@ -21,7 +21,7 @@
 
       <div class="flex items-center gap-6">
         <div class="hidden md:flex items-center gap-2 text-blue-700 font-bold">
-          <span class="text-xl">📞</span>
+          <span class="text-xl" >📞</span>
           <span>+27 83 727 4638</span>
         </div>
 

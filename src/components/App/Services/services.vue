@@ -131,7 +131,7 @@
     </div>
 
     <!-- SERVICE GRID -->
-    <div class="mt-20">
+    <div >
 
       <div class="text-center">
 
@@ -142,7 +142,7 @@
         </span>
 
         <h2
-          class="text-5xl font-black text-blue-950 mt-5"
+          class="text-4xl font-black text-blue-950 mt-5"
         >
           Complete Water Infrastructure Services
         </h2>
@@ -150,7 +150,7 @@
       </div>
 
       <div
-        class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-20"
+        class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-10"
       >
 
         <!-- CARD -->

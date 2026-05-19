@@ -51,9 +51,13 @@
       </div>
     </div>
 
-    <div class="border-t border-blue-900 mt-16 pt-8 text-center text-slate-400 text-lg px-6">
+    <div class="border-t border-blue-900 mt-16 pt-8 text-center text-slate-400 text-lg ">
       © 2026 Clearwater Water Solutions. All Rights Reserved.
+      <p class="mt-2">
+        Made With <span class="love">❤️</span>  At  <a href="https://shawod.com" class="text-blue-700 font-black " target="_blank">Shawod</a>
+      </p>
     </div>
+    
   </footer>
 </template>
 
@@ -62,5 +66,16 @@
 </script>
 
 <style scoped>
+.love {
+    color: red;
+    font-size: 18px;
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    0%   { opacity: 1; }
+    50%  { opacity: 0.4; }
+    100% { opacity: 1; }
+}
 
 </style>

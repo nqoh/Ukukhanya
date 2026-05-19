@@ -7,13 +7,13 @@
             <slot name="title"></slot>
           </span> -->
   
-          <h1 class="text-5xl md:text-7xl font-black text-blue-950 leading-tight uppercase">
+          <h1 class="text-4xl md:text-7xl font-black text-blue-950 leading-tight uppercase">
             <slot name="sub-title"></slot>
           </h1>
   
-          <p class="text-gray text-lg leading-relaxed mt-2 max-w-3xl mx-auto">
+          <blockquote class="text-gray text-lg leading-relaxed px-2 mt-2 max-w-3xl mx-auto">
             <slot name="description"></slot>
-          </p>
+          </blockquote>
   
         </div>
       </section>

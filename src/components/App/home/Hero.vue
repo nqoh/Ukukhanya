@@ -7,7 +7,7 @@
       <div class="px-6 lg:px-10 py-12" >
 
         <h1 class="lg:text-3xl text-2xl  leading-tight font-black text-blue-950 uppercase">
-          We Delivering Sustainable
+          Delivering Sustainable
           <span class="text-blue-600 block"  >
           Solution You Can Trust 
           </span>
@@ -48,9 +48,9 @@
           </div>
         </div>
 
-        <div class="flex flex-wrap gap-5 mt-12">
-          <button class="bg-blue-700 hover:bg-blue-800 transition text-white px-8 py-5 rounded-2xl font-bold shadow-xl text-lg">
-            📞 CALL NOW: +27 83 727 4638
+        <div class="flex flex-wrap justify-center gap-5 mt-12">
+          <button class="bg-blue-700 hover:bg-blue-800 transition text-white px-10 py-5 rounded-2xl font-bold shadow-xl text-lg">
+            <span class="phone">📞</span> CALL NOW: +27 83 727 4638
           </button>
         </div>
       </div>
@@ -74,5 +74,19 @@
 </script>
 
 <style scoped>
+.phone {
+    display: inline-block;
+    animation: ring 0.8s infinite;
+    transform-origin: top center;
+}
 
+@keyframes ring {
+    0%   { transform: rotate(0deg); }
+    15%  { transform: rotate(15deg); }
+    30%  { transform: rotate(-15deg); }
+    45%  { transform: rotate(12deg); }
+    60%  { transform: rotate(-12deg); }
+    75%  { transform: rotate(8deg); }
+    100% { transform: rotate(0deg); }
+}
 </style>
