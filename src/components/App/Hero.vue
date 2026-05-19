@@ -1,17 +1,17 @@
 <template>
    <!-- HERO -->
    <section class="relative  overflow-hidden py-5">
-        <div class="relative max-w-7xl mx-auto px-6 py-6 text-center">
+        <div class="relative max-w-7xl mx-auto text-center">
             
-          <span class="bg-blue-700/40 text-white px-5 py-2 rounded-full font-semibold uppercase tracking-widest text-sm">
+          <!-- <span class="bg-blue-700/40 text-white px-5 py-2 rounded-full font-semibold uppercase tracking-widest text-sm">
             <slot name="title"></slot>
-          </span>
+          </span> -->
   
-          <h1 class="text-5xl md:text-7xl font-black text-blue-950 leading-tight mt-2 uppercase">
+          <h1 class="text-5xl md:text-7xl font-black text-blue-950 leading-tight uppercase">
             <slot name="sub-title"></slot>
           </h1>
   
-          <p class="text-blue-700 text-xl leading-relaxed mt-2 max-w-3xl mx-auto">
+          <p class="text-blue-700 text-lg leading-relaxed mt-2 max-w-3xl mx-auto">
             <slot name="description"></slot>
           </p>
   
