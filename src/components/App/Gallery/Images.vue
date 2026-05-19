@@ -11,27 +11,22 @@
           Photo Gallery
         </span>
 
-        <h2
-          class="text-5xl font-black text-blue-950 mt-2"
-        >
-          Project Images
-        </h2>
+       
       </div>
 
     </div>
-
     <!-- IMAGE GRID -->
-    <div
-      class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-10"
-    >
-
+    <template v-for="item in items" :key="item.id" >
+    <h2 class="text-3xl font-black text-blue-950 mt-4 ml-6">
+      {{ item.name }}
+    </h2>
+   
+    <div  class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-2" >
       <!-- IMAGE CARD -->
-      <div
-        class="group overflow-hidden rounded-[2rem] shadow-xl relative"
-      >
+      <div class="group overflow-hidden rounded-[2rem] shadow-xl relative" v-for="image in item.images">
         <img
-          src="/assets/images/IMG-20260508-WA0019.jpg"
-          alt="Borehole Drilling"
+          :src="'/assets/images/'+image"
+          :alt="item.name"
           class="w-full h-[350px] object-cover group-hover:scale-110 transition duration-500"
         />
 
@@ -39,9 +34,9 @@
           class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-8"
         >
           <div>
-            <h3 class="text-3xl font-black text-white">
-              Borehole Drilling
-            </h3>
+             <h3 class="text-xl font-bold text-white">
+              {{ item.name }}
+            </h3> 
 
             <p class="text-slate-200 mt-2">
               Professional drilling project completed successfully.
@@ -50,132 +45,10 @@
         </div>
       </div>
 
-      <!-- IMAGE CARD -->
-      <div
-        class="group overflow-hidden rounded-[2rem] shadow-xl relative"
-      >
-        <img
-          src="/assets/images/IMG-20260508-WA0015.jpg"
-          alt="Water Solutions"
-          class="w-full h-[350px] object-cover group-hover:scale-110 transition duration-500"
-        />
-
-        <div
-          class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-8"
-        >
-          <div>
-            <h3 class="text-3xl font-black text-white">
-              Water Infrastructure
-            </h3>
-
-            <p class="text-slate-200 mt-2">
-              Reliable water systems for residential projects.
-            </p>
-          </div>
-        </div>
-      </div>
 
       <!-- IMAGE CARD -->
-      <div
-        class="group overflow-hidden rounded-[2rem] shadow-xl relative"
-      >
-        <img
-          src="/assets/images/IMG-20260508-WA0014.jpg"
-          alt="Solar Pump"
-          class="w-full h-[350px] object-cover group-hover:scale-110 transition duration-500"
-        />
-
-        <div
-          class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-8"
-        >
-          <div>
-            <h3 class="text-3xl font-black text-white">
-              Solar Pump Installation
-            </h3>
-
-            <p class="text-slate-200 mt-2">
-              Sustainable solar powered water solution.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- IMAGE CARD -->
-      <div
-        class="group overflow-hidden rounded-[2rem] shadow-xl relative"
-      >
-        <img
-          src="/assets/images/IMG-20260508-WA0013.jpg"
-          alt="Tank Stand"
-          class="w-full h-[350px] object-cover group-hover:scale-110 transition duration-500"
-        />
-
-        <div
-          class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-8"
-        >
-          <div>
-            <h3 class="text-3xl font-black text-white">
-              Tank Stand Construction
-            </h3>
-
-            <p class="text-slate-200 mt-2">
-              Strong and durable elevated water systems.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- IMAGE CARD -->
-      <div
-        class="group overflow-hidden rounded-[2rem] shadow-xl relative"
-      >
-        <img
-          src="/assets/images/IMG-20260508-WA0001.jpg"
-          alt="Construction"
-          class="w-full h-[350px] object-cover group-hover:scale-110 transition duration-500"
-        />
-
-        <div
-          class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-8"
-        >
-          <div>
-            <h3 class="text-3xl font-black text-white">
-              Construction Work
-            </h3>
-
-            <p class="text-slate-200 mt-2">
-              Professional infrastructure and water engineering.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- IMAGE CARD -->
-      <div
-        class="group overflow-hidden rounded-[2rem] shadow-xl relative"
-      >
-        <img
-          src="/assets/images/IMG-20260508-WA0046.jpg"
-          alt="Filtration"
-          class="w-full h-[350px] object-cover group-hover:scale-110 transition duration-500"
-        />
-
-        <div
-          class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/10 to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-8"
-        >
-          <div>
-            <h3 class="text-3xl font-black text-white">
-              Filtration Systems
-            </h3>
-
-            <p class="text-slate-200 mt-2">
-              Clean and healthy water filtration solutions.
-            </p>
-          </div>
-        </div>
-      </div>
-
     </div>
+  </template>
 
   </div>
 
@@ -183,7 +56,18 @@
 </template>
 
 <script setup lang="ts">
+  import { reactive } from 'vue';
 
+  const items  = reactive([
+    {id:1,name:'Borehole Drilling', images:['borhole.jpg','borhole2.jpg','IMG-20260508-WA0013.jpg']},
+    {id:2,name:'Borehole Cleaning & Rehabilitation', images:['clearning.jpg','clearning2.jpg','clearning3.jpg']},
+    {id:3,name:'Yield Testing', images:['testing.jpg','testing2.jpg','testing3.jpg']},
+    {id:4,name:'Pump Supply & Installation', images:['pump.jpg','pump2.jpg','pump3.jpg']},
+    {id:5,name:'Solar Pump Solution', images:['solar.jpg','solar2.jpg','solar3.jpg']},
+    {id:6,name:'Water Backup System', images:['IMG-20260518-WA0004.jpg','backup.jpg','backup2.jpg']},
+    {id:7,name:'Tank Stand Construction', images:['tank2.jpg','tank.jpg','IMG-20260518-WA0002.jpg']},
+    {id:8,name:'Filteration System', images:['filter.jpg','filter2.jpg','filter3.jpg']}
+    ])
 </script>
 
 <style scoped>
