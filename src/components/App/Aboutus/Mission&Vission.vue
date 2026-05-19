@@ -23,7 +23,7 @@
 
       <!-- MISSION -->
       <div
-        class="bg-white rounded-[2rem] p-10 shadow-xl border border-slate-100"
+        class="bg-white rounded-[2rem] p-10  border border-slate-100"
       >
 
         <div
@@ -51,7 +51,7 @@
 
       <!-- VISION -->
       <div
-        class="bg-white rounded-[2rem] p-10 shadow-xl border border-slate-100"
+        class="bg-white rounded-[2rem] p-10  border border-slate-100"
       >
 
         <div

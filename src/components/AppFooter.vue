@@ -17,7 +17,7 @@
         </div>
 
         <p class="text-slate-300 mt-6 leading-relaxed text-lg">
-          We provide comprehensive and sustainable water solutions.
+          We Delivering Sustainable Solution You Can Trust.
         </p>
       </div>
 

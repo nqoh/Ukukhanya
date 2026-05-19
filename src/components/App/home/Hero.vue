@@ -1,15 +1,15 @@
 <template>
      <!-- Hero -->
   <section class="bg-gradient-to-r from-white via-slate-50 to-blue-50 overflow-hidden">
-    <div class="max-w-7xl mx-auto grid lg:grid-cols-2 items-center min-h-[300px]">
+    <div class=" mx-auto grid lg:grid-cols-2 items-center min-h-[300px]">
 
       <!-- Left -->
       <div class="px-6 lg:px-10 py-12" >
 
         <h1 class="lg:text-3xl text-2xl  leading-tight font-black text-blue-950 uppercase">
-          Complete Water Solutions For A
+          We Delivering Sustainable
           <span class="text-blue-600 block"  >
-            Better Tomorrow
+          Solution You Can Trust 
           </span>
         </h1>
 
@@ -18,7 +18,9 @@
           we provide reliable and sustainable water
           solutions for your home, farm and business.
         </p>
-
+        <p class="text-xl text-slate-600 mt-4 leading-relaxed max-w-2xl">
+         We are committed to delivering exceptional quality and reliability in every project we undertake, ensuring complete satisfaction for our valued clients.
+        </p> 
         <div class="grid grid-cols-3 gap-4 mt-10 max-w-xl ">
 
           <div class="flex items-start gap-3">

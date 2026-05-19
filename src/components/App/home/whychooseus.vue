@@ -17,8 +17,15 @@
       Quality Work. Clean Water. Better Life.
     </h2>
   </div>
-
-  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mt-20">
+  <div class="flex justify-center ">
+    <p class="text-xl text-slate-600 mt-4 text-center leading-relaxed max-w-4xl">
+  By choosing Ukukhanya to execute your project, we will complete all work to the highest 
+  standard, utilising leading in South Africa suppliers. We ensure that all of our
+  suppliers work to industry standards for ground source heat products and water well.
+  </p>
+  </div>
+ 
+  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mt-10">
 
     <div class="text-center">
       <div class="text-7xl text-blue-700">🛡️</div>

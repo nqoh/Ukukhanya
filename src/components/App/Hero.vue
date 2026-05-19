@@ -11,7 +11,7 @@
             <slot name="sub-title"></slot>
           </h1>
   
-          <p class="text-blue-700 text-lg leading-relaxed mt-2 max-w-3xl mx-auto">
+          <p class="text-gray text-lg leading-relaxed mt-2 max-w-3xl mx-auto">
             <slot name="description"></slot>
           </p>
   

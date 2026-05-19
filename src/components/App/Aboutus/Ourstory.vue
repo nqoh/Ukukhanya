@@ -10,7 +10,7 @@
       <img
         src="/assets/images/borehole1.png"
         alt="Our Story"
-        class="rounded-[2rem] shadow-2xl"
+        class="rounded-[2rem] "
       />
 
     </div>

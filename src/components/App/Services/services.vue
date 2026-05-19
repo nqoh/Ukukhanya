@@ -13,7 +13,7 @@
         <img
           src="/assets/images/borehole 2.png"
           alt="Borehole Drilling"
-          class="rounded-[2rem] shadow-2xl w-full h-[500px] object-cover"
+          class="rounded-[2rem] w-full h-[500px] object-cover"
         />
       </div>
 
@@ -124,7 +124,7 @@
         <img
           src="/assets/images/boreholeClean.png"
           alt="Borehole Cleaning"
-          class="rounded-[2rem] shadow-2xl w-full h-[500px] object-cover"
+          class="rounded-[2rem]  w-full h-[500px] object-cover"
         />
       </div>
 
